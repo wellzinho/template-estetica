@@ -1,6 +1,7 @@
 /**
  * Paths under `/public` exported from Figma (file `mwWYv5QKXF6T7pte2GGWBV`, página Estética).
  * Ícones sociais: nodes 68:597 / 68:602. Tratamentos: 65:2332. Hero poster: 60:1462. CTA: 68:556.
+ * Sobre (retrato): 123:2 → `dr-valente.png`.
  */
 export const figmaAssets = {
   hero: '/media/hero.png',
