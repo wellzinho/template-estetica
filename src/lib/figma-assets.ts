@@ -1,13 +1,16 @@
-/** Static paths under `/public` — no remote Figma MCP URLs (they 404 outside authenticated export). */
+/**
+ * Paths under `/public` exported from Figma (file `mwWYv5QKXF6T7pte2GGWBV`, página Estética).
+ * Ícones sociais: nodes 68:597 / 68:602. Tratamentos: 65:2332. Hero poster: 60:1462. CTA: 68:556.
+ */
 export const figmaAssets = {
   hero: '/media/hero.png',
   heroPoster: '/media/hero.png',
   heroVideo: '/media/hero.mp4',
   treatments: {
-    luminosidade: '/images/results/luminosidade-after.png',
-    peeling: '/media/methodology.png',
-    drenagem: '/media/hero.png',
-    bioestimulacao: '/images/results/botox-after.png',
+    luminosidade: '/media/treatments/luminosidade.png',
+    peeling: '/media/treatments/peeling.png',
+    drenagem: '/media/treatments/drenagem.png',
+    bioestimulacao: '/media/treatments/bioestimulacao.png',
   },
   results: {
     luminosidade: {
@@ -21,7 +24,7 @@ export const figmaAssets = {
   },
   professional: '/media/dr-valente.png',
   engineering: '/media/methodology.png',
-  cta: '/media/hero.png',
+  cta: '/media/cta-bg.jpg',
   icons: {
     instagram: '/icons/instagram.svg',
     whatsapp: '/icons/whatsapp.svg',
